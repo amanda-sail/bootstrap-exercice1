@@ -49,9 +49,10 @@
             </div>
         </div>
         <div class="container p-4">
-            <div class="row">
+            <div class="row flex-md-row flex-column-reverse">
+                <!-- still doesn't work with column reverse and display flex; also forces image down-->
                 <div class="col-md-6">
-                    <img src="./public/img/02.jpg" class="rounded-circle float-start img-thumbnail border-0" alt="">
+                    <img src="./public/img/02.jpg" class="rounded-circle img-thumbnail border-0" alt="">
                 </div>
                 <div class="col-md-6 my-auto">
                     <h2>We salute you!</h3>
@@ -66,7 +67,7 @@
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni cum voluptatem enim, quos molestias voluptatibus dignissimos perspiciatis atque qui consequuntur!</p>
                 </div>
                 <div class="col-md-6">
-                    <img src="./public/img/03.jpg" class="rounded-circle mw-100 float-end" alt="">
+                    <img src="./public/img/03.jpg" class="rounded-circle img-thumbnail border-0 float-end" alt="">
                 </div>
             </div>
         </div>
@@ -81,6 +82,9 @@
             </div>
         </nav>
     </footer>
+
+    <!-- Script -->
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
 </body>
 
 </html>
